@@ -1,0 +1,112 @@
+{
+  "seed": 42,
+  "count": 3,
+  "dpi": 200,
+  "corpus": "https://github.com/irvingvasquez/libros_de_texto_gratuitos",
+  "books": [
+    {
+      "slug": "H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL",
+      "year": "1960",
+      "grade": "Grado_4",
+      "filename": "H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL.pdf",
+      "relative_path": "1960/Grado_4/H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL.pdf",
+      "page_count": 129
+    },
+    {
+      "slug": "H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA",
+      "year": "1962",
+      "grade": "Grado_6",
+      "filename": "H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA.pdf",
+      "relative_path": "1962/Grado_6/H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA.pdf",
+      "page_count": 131
+    },
+    {
+      "slug": "H1988P4MA122_MATEMÁTICAS",
+      "year": "1988",
+      "grade": "Grado_4",
+      "filename": "H1988P4MA122_MATEMÁTICAS.pdf",
+      "relative_path": "1988/Grado_4/H1988P4MA122_MATEMÁTICAS.pdf",
+      "page_count": 259
+    }
+  ],
+  "engines": {
+    "marker": {
+      "pages": 519,
+      "errors": 0,
+      "seconds": 3232.086,
+      "skipped": 3,
+      "books": {
+        "H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL": {
+          "pages": 129,
+          "errors": 0,
+          "seconds": 798.096,
+          "skipped": 1
+        },
+        "H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA": {
+          "pages": 131,
+          "errors": 0,
+          "seconds": 890.539,
+          "skipped": 1
+        },
+        "H1988P4MA122_MATEMÁTICAS": {
+          "pages": 259,
+          "errors": 0,
+          "seconds": 1543.451,
+          "skipped": 1
+        }
+      }
+    },
+    "nanonets": {
+      "pages": 519,
+      "errors": 0,
+      "seconds": 4457.712,
+      "skipped": 3,
+      "books": {
+        "H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL": {
+          "pages": 129,
+          "errors": 0,
+          "seconds": 992.343,
+          "skipped": 1
+        },
+        "H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA": {
+          "pages": 131,
+          "errors": 0,
+          "seconds": 1280.452,
+          "skipped": 1
+        },
+        "H1988P4MA122_MATEMÁTICAS": {
+          "pages": 259,
+          "errors": 0,
+          "seconds": 2184.917,
+          "skipped": 1
+        }
+      }
+    },
+    "deepseek": {
+      "pages": 519,
+      "errors": 0,
+      "seconds": 3204.978,
+      "skipped": 3,
+      "books": {
+        "H1960P4ES013_MI_LIBRO_DE_LENGUA_NACIONAL": {
+          "pages": 129,
+          "errors": 0,
+          "seconds": 696.591,
+          "skipped": 1
+        },
+        "H1966P6MA381_MI_LIBRO_DE_ARITMÉTICA_Y_GEOMETRÍA": {
+          "pages": 131,
+          "errors": 0,
+          "seconds": 889.121,
+          "skipped": 1
+        },
+        "H1988P4MA122_MATEMÁTICAS": {
+          "pages": 259,
+          "errors": 0,
+          "seconds": 1619.266,
+          "skipped": 1
+        }
+      }
+    }
+  }
+}
